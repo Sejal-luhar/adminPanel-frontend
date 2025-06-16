@@ -17,7 +17,7 @@ app.use(morgan('tiny'));
 // cors setup
 
 app.use(cors({
-    origin:true,
+    origin:'https://admin-frontend-six-rose.vercel.app',
     credentials:true
 }));
 
